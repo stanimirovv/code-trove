@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="yYiv-nO9Fw1LH3IkXrjX" name="DDD">
+        <mxGraphModel dx="2284" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;" parent="1" source="6" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Shorten URL Request" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="40" width="240" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;h1&gt;Ubiquitious Language&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;URL&lt;/b&gt; - valid url to a web page&lt;/div&gt;&lt;div&gt;&lt;b&gt;Short URL&lt;/b&gt; - short version of a URL that can redirect to the previous one&lt;/div&gt;&lt;div&gt;&lt;b&gt;Store&lt;/b&gt; - data store containing the URL &amp;lt;-&amp;gt; Short URL connection&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry y="10" width="310" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="URL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.858;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;entryX=0.538;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="380" width="120" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="300" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;exitX=0.408;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="9" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Resolve Short URL Request" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="40" width="260" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;h1&gt;Domain Events&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Shorten URL -&lt;/b&gt; generate short URL for URL&lt;/div&gt;&lt;div&gt;&lt;b&gt;Resolve Short URL -&lt;/b&gt; redirect to original URL by giving short URL&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry y="210" width="310" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Fetch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="280" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Return Short URL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="290" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Resolve and return Redirect Request" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="320" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Short URL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="160" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Redirect status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="160" width="70" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
