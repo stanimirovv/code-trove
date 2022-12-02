@@ -1,0 +1,22 @@
+{
+  "name": "code-trove",
+  "version": "1.0.0",
+  "description": "Code Challanges/Katas written in a single sitting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanimirovv/code-trove.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanimirovv/code-trove/issues"
+  },
+  "homepage": "https://github.com/stanimirovv/code-trove#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
